@@ -1,175 +1,654 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<head>
+<meta charset="utf-8" />
 
-    <title>Nucamp – Intro to Python</title>
+<title>Nucamp – Intro to Python</title>
 
-    <meta name="description" content="Introduction to Python with Nucamp" />
-    <meta name="author" content="Tyler Maxwell" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
+<meta name="description" content="Introduction to Python with Nucamp" />
+<meta name="author" content="Tyler Maxwell" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta
+  name="apple-mobile-web-app-status-bar-style"
+  content="black-translucent"
+/>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../../dist/reset.css" />
-    <link rel="stylesheet" href="../../dist/reveal.css" />
-    <link rel="stylesheet" href="../../dist/theme/black.css" id="theme" />
+<link rel="stylesheet" href="../../dist/reset.css" />
+<link rel="stylesheet" href="../../dist/reveal.css" />
+<link rel="stylesheet" href="../../dist/theme/black.css" id="theme" />
 
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="../../plugin/highlight/monokai.css" />
-  </head>
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="../../plugin/highlight/monokai.css" />
+</head>
 
-  <body>
-    <div class="reveal">
-      <!-- Any section element inside of this container is displayed as a slide -->
-      <div class="slides">
-        <section>
-          <a href="https://www.tylermaxwell.co/nucamp_intro_python">
-            <img
-              src="../../images/Python-logo.png"
-              alt="python logo"
-              style="
-                height: 180px;
-                margin: 0 auto 4rem auto;
-                background: transparent;
-              "
-              class="demo-logo"
-            />
-          </a>
-          <h3>Introduction to Python</h3>
-        </section>
+<body>
+<div class="reveal">
+  <!-- Any section element inside of this container is displayed as a slide -->
+  <div class="slides">
+    <section>
+      <a href="https://www.tylermaxwell.co/nucamp_intro_python">
+        <img
+          src="../../images/Python-logo.png"
+          alt="python logo"
+          style="
+            height: 180px;
+            margin: 0 auto 4rem auto;
+            background: transparent;
+          "
+          class="demo-logo"
+        />
+      </a>
+      <h3>Introduction to Python</h3>
+    </section>
 
-        <section
-          data-transition="slide"
-          data-background="#4d7e65"
-          data-background-transition="zoom"
-        >
-          <h2>Lesson Objective</h2>
-          <p>
-            Introduce the concept of a data type and cover the basic data types
-            in Python.
-          </p>
-        </section>
+  <section>
+  <h2>Basic Python data types</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Data Type</th>
+        <th>Name</th>
+        <th>Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="fragment">
+        <td>Integer</td>
+        <td>int</td>
+        <td><code>42</code></td>
+      </tr>
+      <tr class="fragment">
+        <td>Float</td>
+        <td>float</td>
+        <td><code>3.14</code></td>
+      </tr>
+      <tr class="fragment">
+        <td>Boolean</td>
+        <td>bool</td>
+        <td><code>True or False</code></td>
+      </tr>
+      <tr class="fragment">
+        <td>None</td>
+        <td>NoneType</td>
+        <td><code>None</code></td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
 
-        <section>
-          <h2>Basic Python data types</h2>
-          <table class="fragment">
-            <thead>
-              <tr>
-                <th>Data Type</th>
-                <th>Name</th>
-                <th>Example</th>
-              </tr>
-            </thead>
-            <tbody class="fragment">
-              <tr class="fragment">
-                <td>Integer</td>
-                <td>int</td>
-                <td><code>42</code></td>
-              </tr>
-              <tr class="fragment">
-                <td>Float</td>
-                <td>float</td>
-                <td><code>3.14</code></td>
-              </tr>
-              <tr class="fragment">
-                <td>Boolean</td>
-                <td>bool</td>
-                <td><code>True or False</code></td>
-              </tr>
-              <tr class="fragment">
-                <td>None</td>
-                <td>NoneType</td>
-                <td><code>None</code></td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
 
-        <section data-auto-animate>
-          <h2 data-id="code-title">Data Types</h2>
-          <pre
-            data-id="code-animation"
-          ><code class="hljs" data-trim data-line-numbers>
-			print(type(42))
-			</code></pre>
-          <p></p>
-        </section>
-        <section data-auto-animate>
-          <h2 data-id="code-title">Data Types</h2>
-          <pre
-            data-id="code-animation"
-          ><code class="hljs" data-trim data-line-numbers><script type="text/template">
-			print(type(42))
-      #=> <class 'int'>
-					</script></code></pre>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Data Types</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers><script type="text/template">
+  print(type(42))
+      </script></code></pre>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Data Types</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers><script type="text/template">
+  print(type(42))
+  #=> <class 'int'>
+      </script></code></pre>
+    </section>
 
-        <aside class="notes">
-          objects and classes
-          cookie cutter blueprint📝
-        </aside>
-        </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Data Types</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  print(type(3.14))
+  </code></pre>
+      <p></p>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Data Types</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers><script type="text/template">
+  print(type(3.14))
+  #=> <class 'float'>
+      </script></code></pre>
+    </section>
 
-        <section data-auto-animate>
-          <h2 data-id="code-title">Data Types</h2>
-          <pre
-            data-id="code-animation"
-          ><code class="hljs" data-trim data-line-numbers>
-			print(type(3.14))
-			</code></pre>
-          <p></p>
-        </section>
-        <section data-auto-animate>
-          <h2 data-id="code-title">Data Types</h2>
-          <pre
-            data-id="code-animation"
-          ><code class="hljs" data-trim data-line-numbers><script type="text/template">
-			print(type(3.14))
-      #=> <class 'float'>
-					</script></code></pre>
-        </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Data Types</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  print(type(True))
+  </code></pre>
+      <p></p>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Data Types</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers><script type="text/template">
+  print(type(True))
+  #=> <class 'bool'>
+      </script></code></pre>
+    </section>
 
-        <section data-auto-animate>
-          <h2 data-id="code-title">Data Types</h2>
-          <pre
-            data-id="code-animation"
-          ><code class="hljs" data-trim data-line-numbers>
-			print(type(True))
-			</code></pre>
-          <p></p>
-        </section>
-        <section data-auto-animate>
-          <h2 data-id="code-title">Data Types</h2>
-          <pre
-            data-id="code-animation"
-          ><code class="hljs" data-trim data-line-numbers><script type="text/template">
-			print(type(True))
-      #=> <class 'bool'>
-					</script></code></pre>
-        </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Data Types</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  print(type(None))
+  </code></pre>
+      <p></p>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Data Types</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers><script type="text/template">
+  print(type(None))
+  #=> <class 'NoneType'>
+      </script></code></pre>
+    </section>
 
-        <section data-auto-animate>
-          <h2 data-id="code-title">Data Types</h2>
-          <pre
-            data-id="code-animation"
-          ><code class="hljs" data-trim data-line-numbers>
-			print(type(None))
-			</code></pre>
-          <p></p>
-        </section>
-        <section data-auto-animate>
-          <h2 data-id="code-title">Data Types</h2>
-          <pre
-            data-id="code-animation"
-          ><code class="hljs" data-trim data-line-numbers><script type="text/template">
-			print(type(None))
-      #=> <class 'NoneType'>
-					</script></code></pre>
-        </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  x = 2 * (3 + 4 ** 2) / 19
+  print(x)
+  </code></pre>
+      <p></p>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  x = 2 * (3 + 4 ** 2) / 19
+  print(x)
+  #=> 2.0
+  </code></pre>
+      <p></p>
+    </section>
+
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  y = 1 + 2 ** 3 / 4 - 5 * 6
+  print(y)
+  </code></pre>
+      <p></p>
+    </section>
+
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  y = 1 + 2 ** 3 / 4 - 5 * 6
+  y = 1 +   8   /  4 - 5 * 6
+  print(y)
+  </code></pre>
+      <p></p>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  y = 1 + 2 ** 3 / 4 - 5 * 6
+  y = 1 +   8   /  4 - 5 * 6
+  y = 1 +      2.0   - 5 * 6
+  print(y)
+  </code></pre>
+      <p></p>
+    </section>
+
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  y = 1 + 2 ** 3 / 4 - 5 * 6
+  y = 1 +   8   /  4 - 5 * 6
+  y = 1 +      2.0   -  30
+  print(y)
+  </code></pre>
+      <p></p>
+    </section>
+
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  y = 1 + 2 ** 3 / 4 - 5 * 6
+  y = 1 +   8   /  4 - 5 * 6
+  y = 1 +      2.0   -  30
+  y = 3.0   -  30
+  print(y)
+  </code></pre>
+      <p></p>
+    </section>
+
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  y = 1 + 2 ** 3 / 4 - 5 * 6
+  y = 1 +   8   /  4 - 5 * 6
+  y = 1 +      2.0   -  30
+  y = 3.0   -  30
+  print(y)
+  #=> -27.0
+  </code></pre>
+      <p></p>
+    </section>
+
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  X = 3
+  Y = 2
+  print(X <= Y)
+  </code></pre>
+      <p></p>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  X = 3
+  Y = 2
+  print(X <= Y)
+  #=> False
+  </code></pre>
+      <p></p>
+    </section>
+
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  X = 3
+  Y = 2
+  print(X == Y)
+  </code></pre>
+      <p></p>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  X = 3
+  Y = 2
+  print(X == Y)
+  #=> False
+  </code></pre>
+      <p></p>
+    </section>
+
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  X = 3
+  Y = 2
+  print(X != Y)
+  </code></pre>
+      <p></p>
+    </section>
+    <section data-auto-animate>
+      <h2 data-id="code-title">Order of Operations</h2>
+      <pre
+        data-id="code-animation"
+      ><code class="python" data-trim data-line-numbers>
+  X = 3
+  Y = 2
+  print(X != Y)
+  #=> True
+  </code></pre>
+      <p></p>
+    </section>
+
+<section>
+<h1>Basic Logic Review</h1>
+</section>
+
+<section>
+  <p>
+    Logical expressions can either be
+    <span class="fragment highlight-green">True</span> or
+    <span class="fragment highlight-red">False</span>
+  </p>
+</section>
+
+<section>
+  <p class="fragment grow">not</p>
+  <p class="fragment grow">and</p>
+  <p class="fragment grow">or</p>
+</section>
+
+<!-- NOT -->
+
+<section>
+  <table>
+    <thead>
+      <tr>
+        <th>p</th>
+        <th>not p</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-red">False</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-green">True</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section data-auto-animate>
+  <h2 data-id="code-title">not</h2>
+  <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+      print(True)
+      </code></pre>
+  <p></p>
+</section>
+<section data-auto-animate>
+  <h2 data-id="code-title">not</h2>
+  <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers><script type="text/template">
+      print(True)
+      #=> True
+          </script></code></pre>
+</section>
+
+<section data-auto-animate>
+  <h2 data-id="code-title">not</h2>
+  <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers><script type="text/template">
+      print(not True)
+          </script></code></pre>
+</section>
+<section data-auto-animate>
+  <h2 data-id="code-title">not</h2>
+  <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers><script type="text/template">
+      print(not True)
+      #=> False
+          </script></code></pre>
+</section>
+
+<!-- AND -->
+
+<section>
+  <table>
+    <thead>
+      <tr>
+        <th>p</th>
+        <th>q</th>
+        <th>p and q</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-green">True</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-red">False</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-red">False</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-red">False</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section data-auto-animate>
+  <h2 data-id="code-title">and</h2>
+  <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+      print(True and True)
+      </code></pre>
+  <p></p>
+</section>
+<section data-auto-animate>
+  <h2 data-id="code-title">and</h2>
+  <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers><script type="text/template">
+      print(True and True)
+      #=> True
+          </script></code></pre>
+</section>
+
+<section data-auto-animate>
+  <h2 data-id="code-title">and</h2>
+  <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+      print(True and False)
+      </code></pre>
+  <p></p>
+</section>
+<section data-auto-animate>
+  <h2 data-id="code-title">and</h2>
+  <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers><script type="text/template">
+      print(True and False)
+      #=> False
+          </script></code></pre>
+</section>
+
+<!-- OR -->
+
+<section>
+  <table>
+    <thead>
+      <tr>
+        <th>p</th>
+        <th>q</th>
+        <th>p or q</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-green">True</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-green">True</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">True</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-green">True</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">False</td>
+        <td class="fragment fade-in">
+          <span class="fragment highlight-red">False</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <p>control flow manages the code that runs based on conditions</p>
+  <img class="fragment" src="../../images/pi.jpg" alt="raspberry pi" width="200px">
+</section>
+
+<section>
+  <p class="fragment grow"><code>if</code></p>
+  <p class="fragment grow"><code>elif</code></p>
+  <p class="fragment grow"><code>else</code></p>
+</section>
+
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers>
+condition = True
+          </code></pre>
+</section>
+
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="2|3|4">
+condition = True
+if condition:
+    print("The condition is", condition)
+        </code></pre>
+</section>
+
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="5">
+condition = True
+if condition:
+    print("The condition is", condition)
+#=> "The condition is True"
+        </code></pre>
+</section>
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="2|3|4">
+condition = True
+if condition:
+    print("The condition is", condition)
+else:
+    print("Everything else must be false!!!")
+        </code></pre>
+</section>
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="7">
+condition = True
+if condition:
+    print("The condition is", condition)
+else:
+    print("Everything else must be false!!!")
+#=> 'The condition is True'
+        </code></pre>
+</section>
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="2|5|6">
+condition = False
+if condition:
+    print("The condition is", condition)
+else:
+    print("Everything else must be false!!!")
+</code></pre>
+</section>
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="7">
+condition = False
+if condition:
+    print("The condition is", condition)
+else:
+    print("Everything else must be false!!!")
+#=> 'Everything else must be false!!!'
+</code></pre>
+</section>
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="3|6,7">
+condition = False
+other_condition = True
+if condition:
+    print("The condition is", condition)
+elif other_condition:
+    print("The other condition is", other_condition)
+else:
+    print("Everything else must be false!!!")
+        </code></pre>
+</section>
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="10">
+condition = False
+other_condition = True
+if condition:
+    print("The condition is", condition)
+elif other_condition:
+    print("The other condition is", other_condition)
+else:
+    print("Everything else must be false!!!")
+#=> 'The other condition is True'
+        </code></pre>
+</section>
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="4|2|3|4|9|10">
+condition = False
+other_condition = False
+yet_another_condition = True
+if condition:
+    print("The condition is", condition)
+elif other_condition:
+    print("The other condition is", other_condition)
+elif yet_another_condition:
+    print("The other, other condition is", yet_another_condition)
+else:
+    print("Everything else must be false!!!")
+        </code></pre>
+</section>
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-line-numbers="13">
+condition = False
+other_condition = False
+yet_another_condition = True
+if condition:
+    print("The condition is", condition)
+elif other_condition:
+    print("The other condition is", other_condition)
+elif yet_another_condition:
+    print("The other, other condition is", yet_another_condition)
+else:
+    print("Everything else must be false!!!")
+#=> 'The other, other condition is True'
+        </code></pre>
+</section>
+
+
+
 
         <section>
           <h3>Statements and Expressions</h3>
