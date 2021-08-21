@@ -91,3 +91,12 @@ for <iv> in range(start, stop, step):
 - Week 2 Quiz
 - Portfolio Project: Your Game Algorithm
 - Week 2 Workshop 
+  - [scope.py](code/lecture/scope.py)
+  - LEGB
+    - local
+    - enclosing
+    - global
+    - built-in
+  - [lambda.py](code/lecture/lambda.py)
+    - lambda aka anonymous
+  - [recursion.py](code/lecture/recursion.py)
