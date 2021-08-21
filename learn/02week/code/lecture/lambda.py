@@ -10,6 +10,6 @@ def domath(opt, val, f1, f2):
     return returnval
 
 
-print(domath('sq', 4, lambda num: num * num, lambda num: num ** .5))
+# print(domath('sq', 4, lambda num: num * num, lambda num: num ** .5))
 print(domath('sqrt', 4, lambda num: num * num, lambda num: num ** .5))
-print(domath('sq', 4, lambda num: num * num, lambda num: num ** .5))
+# print(domath('sq', 4, lambda num: num * num, lambda num: num ** .5))

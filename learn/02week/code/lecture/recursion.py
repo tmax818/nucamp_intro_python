@@ -6,3 +6,11 @@ def factorial(num):
 
 
 print(factorial(5))
+
+
+# number = 5
+
+# for i in range(1, number):
+#     number *= i
+
+# print(number)

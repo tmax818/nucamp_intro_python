@@ -1,4 +1,5 @@
 
+
 gvar = "G"
 print('hello from global')
 
@@ -16,6 +17,8 @@ def func_a():
     print(avar)
     func_b()
     print(bvar)
+
+# LEGB
 
 
 # calling func_a

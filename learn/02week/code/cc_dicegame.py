@@ -1,8 +1,12 @@
 import random
 
+high_score = 0
+
 
 def dice_game():
-    high_score = 0
+
+    global high_score
+
     while True:
 
         print("Current High Score: ", high_score)
