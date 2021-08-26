@@ -1,0 +1,41 @@
+- Introduction to Data Structures
+  - [video](https://youtu.be/q6ntn66bxkI)
+  - *data structures* : ways to manage and store collections of values in a single variable
+  - organize data leading to efficiency
+- Lists
+  - Introduction to Lists
+    - [video](https://youtu.be/vYo8Xmk93Kw)
+    - *list* : ordered sequence of multiple values
+  - Course Folder Organization
+    - [video](https://youtu.be/PyxqCXeh2hA)
+    - just folder organization
+  - Exercise: Using Lists - Part 1
+    - [video](https://youtu.be/74qCamrr_UU)
+    - [using_lists](./code/using_lists.py)
+  - Exercise: Using Lists - Part 2
+    - [video](https://youtu.be/lt3h_9_-pkg)
+    - [using_lists](./code/using_lists2.py)
+- Code Challenge: Lists
+  - [cc_lists.py](code/cc_lists.py)
+- Strings
+  - Introduction to Strings
+    - [video](https://youtu.be/GnAyQHQb7PY)
+  - Exercise: Using Strings
+    - [video](https://youtu.be/d7b0FNR8Bvw)
+    - [using_strings.py](code/using_strings.py)
+- Dictionaries
+  - Introduction to Dictionaries
+    - [video](https://youtu.be/NUgQjTKGUag)
+  - Exercise: Using Dictionaries
+  - Exercise: Iterating Through a Dictionary
+- Code Challenge: Dictionaries
+- Tuples
+  - Introduction to Tuples
+  - Exercise: Using Tuples
+  - Exercise: Iterating Through a Tuple
+- Sets
+  - Introduction to Sets
+  - Exercise: Using Sets
+- Quiz
+- Portfolio Project: Report
+- Week 3 Workshop Assignment
