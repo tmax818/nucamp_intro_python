@@ -27,15 +27,27 @@
   - Introduction to Dictionaries
     - [video](https://youtu.be/NUgQjTKGUag)
   - Exercise: Using Dictionaries
+    - [video](https://youtu.be/1XEOO2qASdY)
   - Exercise: Iterating Through a Dictionary
 - Code Challenge: Dictionaries
+  - [cc_dictionary.py](code/cc_dictionary.py)
 - Tuples
   - Introduction to Tuples
+    - [video](https://youtu.be/QCqelZdQPnc)
   - Exercise: Using Tuples
+    - [video](https://youtu.be/IThYO_L31xo)
+    - [using_tuples.py](code/using_tuples.py)
   - Exercise: Iterating Through a Tuple
+    - [video](https://youtu.be/RKo_bCPYp3Y)
 - Sets
   - Introduction to Sets
+    - [video](https://youtu.be/4YyAsYz6a1E)
+    - set items must be immutable
+    - `empty_set = set()`
   - Exercise: Using Sets
+    - [video](https://youtu.be/3AqDNX7HMtU)
+    - [using_sets.py](code/using_sets.py)
 - Quiz
 - Portfolio Project: Report
 - Week 3 Workshop Assignment
+  - [video](https://youtu.be/TTh_PDOdRJo)
