@@ -1,0 +1,54 @@
+- Welcome
+  - [video](https://youtu.be/mcnFDYzPE4I)
+- Object-Oriented Programming (OOP)
+  - Programming Paradigms and Object-Oriented Programming
+    - [video](https://youtu.be/IPlnw2kl4Fo)
+  - Exercise: A Little Class
+    - [video](https://youtu.be/AW137PF_R1w)
+    - [using_classes1.py](code/using_classes1.py)
+  - Exercise: Class and Instance Attributes
+    - [video](https://youtu.be/c7QXNIjxItU)
+    - [using_classes1.py](code/using_classes1.py)
+    - class and instance attributes
+  - Exercise: Class Instance Methods
+    - [video](https://youtu.be/RTYuI39aHVw)
+    - [using_classes2.py](code/using_classes2.py)
+  - Class Inheritance
+    - [video]()
+  - Exercise: Class Inheritance
+    - [video](https://youtu.be/MMyHbtj0r-U)
+    - [inherit.py](code/inherit.py)
+- Portfolio Project: OOP
+- Introduction to Abstract Data Types
+  - [video](https://youtu.be/9MfaeNaEZos)
+- Linked Lists
+  - Introduction to Linked Lists
+    - [video](https://youtu.be/aHot8n2LfgQ)
+    - a collection of nodes
+  - Exercise: Implementing a Linked List
+    - [video](https://youtu.be/VNKhwYhOv6E)
+    - [linked_list.py](code/linked_list.py)
+  - Exercise: Linked List Traversal
+    - [video](https://youtu.be/erj_DBDhJa4)
+    - [linked_list2.py](code/linked_list2.py)
+  - Exercise: Linked List Class
+    - [video](https://youtu.be/6gRGpByrSBE)
+    - [linked_list3.py](code/linked_list3.py)
+  - Exercise: Doubly Linked List
+    - [video](https://youtu.be/QyKwjvNaAWQ)
+    - [linked_list4.py](code/linked_list4.py)
+    - 
+- Stacks
+  - Introduction to Stacks
+    - [video](https://youtu.be/iolsAMQPTXQ)
+    - stack LIFO 
+  - Exercise: Implementing a Stack as Linked List
+    - [video](https://youtu.be/B0IiK6Eeidk)
+    - [stack_linked_list.py](code/stack_linked_list.py)
+  - Exercise: Implementing a Stack as a List
+- Queues
+  - Introduction to Queues
+  - Exercise: Implementing a Queue as Linked List
+  - Exercise: Implementing a Queue as a List
+- Quiz
+- Week 4 Workshop Assignment
