@@ -46,9 +46,18 @@
     - [video](https://youtu.be/B0IiK6Eeidk)
     - [stack_linked_list.py](code/stack_linked_list.py)
   - Exercise: Implementing a Stack as a List
+    - [video]()
+    - [stack2.py](code/stack2.py)
 - Queues
   - Introduction to Queues
+    - [video](https://youtu.be/tcuxl6dFD14)
+    - FIFO
   - Exercise: Implementing a Queue as Linked List
+    - [video](https://youtu.be/RfsBag6lSew)
+    - [queue1.py](code/queue1.py)
   - Exercise: Implementing a Queue as a List
+    - [video](https://youtu.be/6sG5GcvfrEk)
+    - [queue2.py](code/queue2.py)
 - Quiz
 - Week 4 Workshop Assignment
+  - [workshop4.py](code/workshop4/workshop4.py)
