@@ -26,7 +26,12 @@ class BankUser(User):
         print(f"{self.name} has an account balance of: {self.balance}")
 
     def withdraw(self, amount):
-        self.balance -= amount
+        if (type(amount) is not int or type(amount) is not float):
+            return
+        if amount <= 0:
+            print("only positive amounts are allowed.")
+        else:
+            self.balance -= amount
 
     def deposit(self, amount):
         self.balance += amount
@@ -80,3 +85,7 @@ class BankUser(User):
         self.balance += amount
 
         return True
+
+
+user1 = BankUser('bob', 1234, 'password')
+user2 = BankUser('alice', 1234, 'password')

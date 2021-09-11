@@ -1,0 +1,43 @@
+- Portfolio Project: Final Report and Submission
+- Introduction to Algorithms
+  - [video](https://youtu.be/dfU9eAgZRjU)
+  - algorithm design techniques
+    - brute force
+    - divide and conquer
+    - recursion
+    - dynamic programming
+    - greedy
+    - backtracking
+    - branch and bound
+- Searching Algorithms
+  - Introduction to Linear Search
+    - [video](https://youtu.be/qQpmrBq-dTA)
+  - Exercise: Linear Search
+    - [video](https://youtu.be/BeM9k73en4Y)
+    - [linear_search.py](code/linear_search.py)
+  - Introduction to Binary Search
+    - [video](https://youtu.be/6b_mQcoK2Uk)
+    - must be a sorted collection
+  - Exercise: Binary Search
+    - [video](https://youtu.be/OZoHUxdGKMQ)
+    - [binary_search.py](code/binary_search.py)
+  - Challenge Question: Searching Algorithms
+  - Code Challenge: Linear Search Dictionary
+    - [cc_line_search_dict.py](code/cc_line_search_dict.py)
+- Sorting Algorithms
+  - Introduction to Bubble Sort
+    - [video](https://youtu.be/gX7AEKWJtiY)
+  - Exercise: Bubble Sort
+    - [video](https://youtu.be/U1OyVKBJi6k)
+    - [bubblesort.py](code/bubblesort.py)
+  - Introduction to Quicksort
+    - [video](https://youtu.be/Lio_Nv7Qc7w)
+    - one of the most efficient
+  - Exercise: Quicksort
+    - [video](https://youtu.be/LykKdlsWGfo)
+    - [quick_sort.py](code/quick_sort.py)
+- Big O Notation
+  - Introduction to Big O Notation
+    - [video](https://youtu.be/N4Y7hA_CS-0)
+- Quiz
+- Week 5 Workshop Assignment
