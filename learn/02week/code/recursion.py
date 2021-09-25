@@ -9,12 +9,12 @@ def rFib(n):
 rFib(4)
 
 
-# def fib_seq(n):
-#     fib_list = []
-#     for i in range(n + 1):
-#         fib_list.append(rFib(i))
+def fib_seq(n):
+    fib_list = []
+    for i in range(n + 1):
+        fib_list.append(rFib(i))
 
-#     return fib_list
+    return fib_list
 
 
 # print(fib_seq(5))
