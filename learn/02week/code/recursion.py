@@ -17,4 +17,4 @@ def fib_seq(n):
     return fib_list
 
 
-# print(fib_seq(5))
+print(fib_seq(5))

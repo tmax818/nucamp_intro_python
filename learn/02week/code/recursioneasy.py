@@ -1,6 +1,6 @@
-def countdown(n):
-    for i in range(n, 0, -1):
-        print(i)
+# def countdown(n):
+#     for i in range(n, 0, -1):
+#         print(i)
 
 
 def r_countdown(n):
@@ -9,5 +9,5 @@ def r_countdown(n):
         r_countdown(n-1)
 
 
-countdown(5)
-# r_countdown(5)
+# countdown(5)
+r_countdown(5)

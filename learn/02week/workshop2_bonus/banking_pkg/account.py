@@ -6,7 +6,7 @@ def show_balance(balance):
 
 
 def deposit(balance):
-    amount = float(input("Enter amount to deposit: "))
+
     balance += amount
     return balance
 
@@ -48,3 +48,12 @@ def validate_pin():
         print("PIN must contain 4 numbers")
         pin = input("Enter PIN: ")
     return pin
+
+
+def validate_transaction(num):
+    try:
+        float(num)
+    except NameError:
+        print('please only use numbers')
+    finally:
+        return num
