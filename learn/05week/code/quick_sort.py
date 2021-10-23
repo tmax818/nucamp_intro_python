@@ -1,4 +1,5 @@
-my_list = [5, 4, 1, 2, 3]
+from time import sleep
+my_list = ['e', 'd', 'a', 'c', 'b']
 
 
 def sort_part(the_list, low_idx, pivot_idx):
@@ -8,6 +9,7 @@ def sort_part(the_list, low_idx, pivot_idx):
         low_val = the_list[low_idx]
 
         print(the_list, low_val, pivot_val)
+        sleep(.5)
         if low_val <= pivot_val:
             low_idx += 1
         else:
