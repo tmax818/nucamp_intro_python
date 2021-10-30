@@ -1,30 +1,17 @@
 
+my_var = 42
 
-gvar = "G"
-print('hello from global')
-tyler = 'asdf'
+print(my_var)
 
-
-def func_a():
-
-    avar = "A"
-    print("hello from func_a")
-
-    def func_b():
-        bvar = "B"
-        print("printing avar inside b", avar)
-        print("hello from func_b")
-        print(tyler)
-
-    print('printing from func_a')
-    print(gvar)
-    print(avar)
-    func_b()
-    # print(bvar)
-
-# LEGB
+# func_var = None
 
 
-# calling func_a
-func_a()
-# func_b()
+def func():
+    print(my_var)
+    global func_var
+    func_var = "hi mom"
+
+
+func()
+
+print(func_var)

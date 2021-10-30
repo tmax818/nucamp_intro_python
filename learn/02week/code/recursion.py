@@ -1,3 +1,7 @@
+# [0,1,1,2,3,5,8,13]
+# [0,1,2,3,4,5,6, 7]
+
+
 def rFib(n):
     if n == 0:
         return 0
@@ -7,14 +11,3 @@ def rFib(n):
 
 
 rFib(4)
-
-
-def fib_seq(n):
-    fib_list = []
-    for i in range(n + 1):
-        fib_list.append(rFib(i))
-
-    return fib_list
-
-
-print(fib_seq(5))
