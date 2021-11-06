@@ -18,6 +18,10 @@ def atm_menu(name):
 
 print("          === Automated Teller Machine ===          ")
 user = input("Enter name to register: ")
+while len(user) < 1 or len(user) > 10:
+    print("try again!!!!")
+    user = input("Enter name to register: ")
+
 pin = input("Enter PIN: ")
 balance = 0
 
