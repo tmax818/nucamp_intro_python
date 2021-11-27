@@ -1,4 +1,5 @@
 # number of adj pairs == high index
+import this
 import time
 
 unsorted_list = [101, 49, 3, 12, 56]
