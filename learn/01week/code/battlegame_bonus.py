@@ -24,54 +24,62 @@ dragon_damage = 50
 
 while True:
 
-    character = input("""
-    1) Wizard
-    2) Elf
-    3) Human
-    4) Orc
-    Choose your character: """)
+    while True:
 
-    if character == "1" or character.lower() == wizard.lower():
-        character = wizard
-        my_hp = wizard_hp
-        my_damage = wizard_damage
-        break
-    if character == "2" or character.lower() == wizard.lower():
-        character = elf
-        my_hp = elf_hp
-        my_damage = elf_damage
-        break
-    if character == "3" or character.lower() == wizard.lower():
-        character = human
-        my_hp = human_hp
-        my_damage = human_damage
-        break
-    if character == "4" or character.lower() == wizard.lower():
-        character = orc
-        my_hp = orc_hp
-        my_damage = orc_damage
-        break
-    print("Unknown character")
+        character = input("""
+        1) Wizard
+        2) Elf
+        3) Human
+        4) Orc
+        Choose your character: """)
 
-print(f"""You have chosen the character: {character}
-Health: {my_hp}
-Damage: {my_damage}
- """
-      )
+        if character == "1" or character.lower() == wizard.lower():
+            character = wizard
+            my_hp = wizard_hp
+            my_damage = wizard_damage
+            break
+        if character == "2" or character.lower() == wizard.lower():
+            character = elf
+            my_hp = elf_hp
+            my_damage = elf_damage
+            break
+        if character == "3" or character.lower() == wizard.lower():
+            character = human
+            my_hp = human_hp
+            my_damage = human_damage
+            break
+        if character == "4" or character.lower() == wizard.lower():
+            character = orc
+            my_hp = orc_hp
+            my_damage = orc_damage
+            break
+        print("Unknown character")
 
-while True:
-    dragon_hp -= my_damage
-    print(f"The {character} damaged the Dragon!")
-    print(f"The Dragon's hitpoints are now: {dragon_hp}\n")
+    print(f"""You have chosen the character: {character}
+    Health: {my_hp}
+    Damage: {my_damage}
+    """
+        )
 
-    if dragon_hp <= 0:
-        print("The Dragon has lost the battle.")
-        break
+    while True:
+        dragon_hp -= my_damage
+        print(f"The {character} damaged the Dragon!")
+        print(f"The Dragon's hitpoints are now: {dragon_hp}\n")
 
-    my_hp -= dragon_damage
-    print(f"The Dragon strikes back at {character}")
-    print(f"The {character}'s hitpoints are now: {my_hp}\n")
+        if dragon_hp <= 0:
+            print("The Dragon has lost the battle.")
+            break
 
-    if my_hp <= 0:
-        print(f"The {character} has lost the battle.")
+        my_hp -= dragon_damage
+        print(f"The Dragon strikes back at {character}")
+        print(f"The {character}'s hitpoints are now: {my_hp}\n")
+
+        if my_hp <= 0:
+            print(f"The {character} has lost the battle.")
+            break
+    # bonus task 5
+    play_again = input("play again?")
+    if 'y' in play_again:
+        continue
+    else:
         break
