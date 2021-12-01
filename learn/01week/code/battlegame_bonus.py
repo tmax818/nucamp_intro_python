@@ -59,7 +59,7 @@ while True:
     Health: {my_hp}
     Damage: {my_damage}
     """
-        )
+          )
 
     while True:
         dragon_hp -= my_damage
@@ -78,7 +78,7 @@ while True:
             print(f"The {character} has lost the battle.")
             break
     # bonus task 5
-    play_again = input("play again?")
+    play_again = input("play again?").lower()
     if 'y' in play_again:
         continue
     else:
