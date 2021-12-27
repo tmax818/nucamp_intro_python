@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Nucamp – Intro to Python</title>
+
+    <meta name="description" content="Introduction to Python with Nucamp" />
+    <meta name="author" content="Tyler Maxwell" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../../dist/reset.css" />
+    <link rel="stylesheet" href="../../dist/reveal.css" />
+    <link rel="stylesheet" href="../../dist/theme/black.css" id="theme" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../../plugin/highlight/monokai.css" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <a href="https://www.tylermaxwell.co/nucamp_intro_python">
+            <img
+              src="../../images/Python-logo.png"
+              alt="python logo"
+              style="
+                height: 180px;
+                margin: 0 auto 4rem auto;
+                background: transparent;
+              "
+              class="demo-logo"
+            />
+          </a>
+          <img
+            src="../../images/nucamp-logo.png"
+            alt="python logo"
+            style="
+              height: 180px;
+              margin: 0 auto 4rem auto;
+              background: transparent;
+            "
+            class="demo-logo"
+          />
+          <h3>Python Fundamentals</h3>
+        </section>
+
+        <section>
+          <h2>All About Algorithms</h2>
+        </section>
+
+        <section>
+          <h2>Algorithm</h2>
+
+          <img class="fragment" src="../../images/knuth.jpg" width="200" />
+
+          <p>
+            A <span class="fragment highlight-green">finite</span> set of
+            <span class="fragment highlight-green">rules</span>
+            that gives a
+            <span class="fragment highlight-green">sequence of operations</span>
+            for solving a specific type of problem.
+          </p>
+        </section>
+
+        <section
+          data-markdown="notes.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+          data-separator-notes="Note:"
+        ></section>
+      </div>
+    </div>
+
+    <script src="../../dist/reveal.js"></script>
+    <script src="../../plugin/zoom/zoom.js"></script>
+    <script src="../../plugin/notes/notes.js"></script>
+    <script src="../../plugin/search/search.js"></script>
+    <script src="../../plugin/markdown/markdown.js"></script>
+    <script src="../../plugin/highlight/highlight.js"></script>
+    <script>
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight,
+        ],
+      });
+    </script>
+  </body>
+</html>
